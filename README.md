@@ -16,11 +16,12 @@ Construir un agente LLM con RAG (Retrieval-Augmented Generation) que:
 
 - LangChain o LangGraph (core de orquestación)
 - ChromaDB (vector store)
-- OpenAI o HuggingFace (embeddings y LLM)
+- GEMINI / OPENAI o HuggingFace (embeddings y LLM)
 - FastAPI (backend)
 - Streamlit o Gradio (frontend)
 - Pytest (tests)
 - Docker (deployment opcional)
+- Python 3.13+
 
 ## 📂 Estructura del proyecto
 ```
@@ -43,3 +44,30 @@ ai-knowledge-assistant/
 ├── README.md
 └── .env.example
 ```
+## 🧪 Features iniciales
+
+- Ingesta y vectorización de documentos (loader.py + ChromaDB)
+- Búsqueda semántica (rag_pipeline.py)
+- Llamada al modelo (llm_agent.py)
+- API /ask para consultas
+- Interfaz simple (campo de texto + respuesta)
+- Evaluador de similitud (evaluator.py)
+
+## 🧩 Preparacion Del Ambiente
+
+Crear un entorno virtual .venv
+
+```
+python -m venv .venv
+```
+
+Instalar requerimientos
+
+```
+pip install -r requirements.txt
+```
+
+
+
+
+

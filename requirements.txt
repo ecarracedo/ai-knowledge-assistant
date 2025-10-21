@@ -1,0 +1,8 @@
+fastapi
+langchain
+chromadb
+sentence-transformers
+google-generativeai
+streamlit
+python-dotenv
+pytest
