@@ -66,7 +66,10 @@ Instalar requerimientos
 ```
 pip install -r requirements.txt
 ```
+## Ingesta y Embeddings 
 
+Para los datos en crudo, en este caso archivos txt, se debe cargar los mismos en la carpeta data. Una vez cargados los archivos, se crea la base vectorial co
+Ejemplo de ejecución en terminal:
 
 
 
