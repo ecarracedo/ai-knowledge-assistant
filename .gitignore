@@ -1,12 +1,11 @@
+# Folders
 .venv
-.env
-.python-version
-*.ipynb
-__pycache__.venv
-.env
-.python-version
-*.ipynb
 __pycache__
 db
+
+#Files
+.env
+.python-version
+*.ipynb
 *.sqlite3
 *.bin
